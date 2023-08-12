@@ -3,9 +3,10 @@ body{
     flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.top-container{
+header{
     display: flex;
     justify-content: space-between;
     padding: 0 16px;
@@ -28,8 +29,25 @@ li{
 .hero-section{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px;
+}
+
+.hero-content, .hero-banner{
+    max-width: 400px;
+}
+
+.hero-content button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 18px;
 }
 
 .hero-banner img{
-    width: 400px;
+    max-width: 350px;
 }
